@@ -67,8 +67,8 @@ Follow these instructions to get the project up and running from a Git repositor
 **Steps:**
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <project-folder>
+    git clone https://github.com/Marwan-1/laravel-react-ecommerce-demo.git
+    cd laravel-react-ecommerce-demo
     ```
 
 2.  **Install Backend Dependencies:**
