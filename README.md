@@ -29,8 +29,7 @@ If you have received this project as a `.zip` file, follow these simple steps to
 
 2.  **Set Up the Database:**
     * Open your MySQL client (like phpMyAdmin or TablePlus).
-    * Create a new, empty database named `ecommerce_test`.
-    * The provided `.env` file is already configured to connect to this database.
+    * Enter the credentials for the mysql database in the provided `.env` file.
 
 3.  **Prepare the Database:**
     Open a terminal inside the project folder and run the following command. This will create all the necessary tables and populate the database with sample products and the demo user account.
@@ -60,7 +59,7 @@ If you have received this project as a `.zip` file, follow these simple steps to
 Follow these instructions to get the project up and running from a Git repository.
 
 **Prerequisites:**
-* PHP >= 8.1
+* PHP >= 8.2
 * Composer
 * Node.js & npm
 * A local database server (e.g., MySQL)
