@@ -87,9 +87,8 @@ Follow these instructions to get the project up and running from a Git repositor
         ```
 
 4.  **Database Setup:**
-    * In your MySQL client, create a new, empty database named `ecommerce_test`.
     * Open the `.env` file and ensure your `DB_*` variables match your local database credentials.
-    * Run the migrations and seed the database with sample data.
+    * Run the migrations and click `yes` when asked to create database `ecommerce_test`, then wait for seeding the database with sample data.
         ```bash
         php artisan migrate --seed
         ```
