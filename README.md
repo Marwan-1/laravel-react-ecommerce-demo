@@ -17,44 +17,8 @@ The application is designed with modern development practices, focusing on perfo
 
 ## Getting Started
 
-### **Option 1: Quick Run from Zipped Folder**
 
-If you have received this project as a `.zip` file, follow these simple steps to get the application running immediately.
-
-**Prerequisites:**
-* PHP, Node.js, and a MySQL database server must be installed and running on your machine.
-
-**Steps:**
-1.  **Unzip the Project:** Unzip the provided folder to your desired location.
-
-2.  **Set Up the Database:**
-    * Open your MySQL client (like phpMyAdmin or TablePlus).
-    * Enter the credentials for the mysql database in the provided `.env` file.
-
-3.  **Prepare the Database:**
-    Open a terminal inside the project folder and run the following command. This will create all the necessary tables and populate the database with sample products and the demo user account.
-    ```bash
-    php artisan migrate --seed
-    ```
-
-4.  **Run the Application:**
-    You will need to open **two separate terminal windows** inside the project folder.
-    
-    * **In Terminal 1 (Backend):** Start the Laravel server.
-        ```bash
-        php artisan serve
-        ```
-    * **In Terminal 2 (Frontend):** Start the Vite server.
-        ```bash
-        npm run dev
-        ```
-
-5.  **View the Application:**
-    Open your browser and navigate to `http://localhost:8000`.
-
----
-
-### **Option 2: Full Installation from Git**
+### **Full Installation from Git**
 
 Follow these instructions to get the project up and running from a Git repository.
 
