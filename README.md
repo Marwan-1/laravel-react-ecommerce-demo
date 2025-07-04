@@ -166,8 +166,8 @@ For your convenience, a demo user account has been created. The login page featu
 
 ## Time Tracking
 
--   **Estimated Time:** 40 Hours
--   **Actual Time Taken:** 12 Hours
+-   **Estimated Time:** 40~60 Hours
+-   **Actual Time Taken:** 15 Hours
 
 ---
 
