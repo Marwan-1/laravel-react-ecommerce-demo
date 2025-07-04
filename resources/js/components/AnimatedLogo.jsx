@@ -9,11 +9,11 @@ export const AnimatedLogo = () => {
         if (isLogoVisible) {
             timer = setTimeout(() => {
                 setIsLogoVisible(false);
-            }, 7000); // 7 seconds
+            }, 6000); // 6 seconds
         } else {
             timer = setTimeout(() => {
                 setIsLogoVisible(true);
-            }, 3500); // 3.5 seconds
+            }, 2500); // 2.5 seconds
         }
         return () => clearTimeout(timer);
     }, [isLogoVisible]); // Re-run the effect whenever the visibility state changes
